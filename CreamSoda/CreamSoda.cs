@@ -236,7 +236,7 @@ namespace CreamSoda
             List<string> Manifests = Settings.Manifests;
 
             if (Manifests.Count == 0) {
-                Manifests.Add("http://thunderspy.com/manifest.xml");
+                Manifests.Add("https://join.cityofheroesrebirth.com/Manifests/Rebirth.xml");
                 Settings.Manifests = Manifests;
             }
         
